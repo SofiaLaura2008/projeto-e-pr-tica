@@ -1,0 +1,14 @@
+create database petshop
+default character set utf8
+default collate utf8_general_ci;
+
+use petshop;
+
+create table Cliente (
+    id integer primary key auto_increment,
+    nome_e_sobrenome varbinary(50) not null,
+    email varchar(50) unique not null,
+    senha varchar(25),
+    celular varchar(15),
+    sexo boolean
+);

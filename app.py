@@ -1,0 +1,4 @@
+from ultimoTeste import app  # Importa o aplicativo da pasta ultimoTeste
+
+if __name__ == '__main__':
+    app.run(debug=True)
